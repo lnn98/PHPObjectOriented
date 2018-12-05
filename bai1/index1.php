@@ -17,3 +17,5 @@ class Personnel {
         return $this->name .'-'. $this->age;
     }
 }
+$person = new Personnel();
+echo $person->getPersonnel();
